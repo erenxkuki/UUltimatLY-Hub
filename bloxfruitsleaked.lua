@@ -2420,8 +2420,8 @@ end)
 	end)
 
 	local BossDropdown = Tabs.Main:AddDropdown("BossDropdown", {
-		Title = "Chọn boss",
-		Description = "Chọn boss để farm",
+		Title = "Choose boss",
+		Description = "Choose a boss to farm",
 		Values = Boss,
 		Default = 1,
 		Callback = function(value)
@@ -2430,7 +2430,7 @@ end)
 	})
 	local FarmBoss = Tabs.Main:AddToggle("FarmBoss", {
 		Title = "Auto Farm Boss",
-		Description = "Tự động farm boss đã chọn",
+		Description = "Auto farm the selected boss",
 		Default = false
 	})
 	FarmBoss:OnChanged(function(value)
@@ -2508,7 +2508,7 @@ end)
 	if World1 then
 	local TravelDress = Tabs.Main:AddToggle("TravelDress", {
 		Title = "Auto Travel Dressrosa",
-		Description = "Tự động lên sea 2(yêu cầu level 700)",
+		Description = "Auto go to Sea 2 (requires level 700)",
 		Default = false
 	})
 	TravelDress:OnChanged(function(Value)
@@ -2552,7 +2552,7 @@ end)
 	if World2 then
 	local Zou = Tabs.Main:AddToggle("Zou", {
 		Title = "Auto Zou Quest",
-		Description = "Tự động lên sea 3 (yêu cầu level 1500)",
+		Description = "Auto go to Sea 3 (requires level 1500)",
 		Default = false
 	})
 	Zou:OnChanged(function(Value)
@@ -2718,7 +2718,7 @@ end)
 
 	local FarmTyrant = Tabs.Main:AddToggle("FarmTyrant", {
 		Title = "Farm Tyrant + Monster",
-		Description = "Farm Quái Và Đánh Boss",
+		Description = "Farm Mobs and Fight Bosses",
 		Default = false
 	})
 	FarmTyrant:OnChanged(function(Value)
@@ -2881,9 +2881,9 @@ end)
 	end)
 	end
 	if World3 then
-	local FarmPhaBinh = Tabs.Main:AddToggle("FarmPhaBinh", {
+	local FarmPhaBinh = Tabs.Main:AddToggle("Farm Bottle", {
 		Title = "Break the Bottle and Summon Boss",
-		Description = "Phá Bình Triệu Hồi Boss",
+		Description = "Break Bottle to summon the boss",
 		Default = false
 	})
 	FarmPhaBinh:OnChanged(function(Value)
@@ -3008,7 +3008,7 @@ end)
 	Tabs.Main:AddSection("Miscellanea / Quest")
 	local ClosetMons = Tabs.Main:AddToggle("ClosetMons", {
 		Title = "Auto Farm Nearest",
-		Description = "Farm Xung Quanh",
+		Description = "Auto-farm nearby",
 		Default = false
 	})
 	ClosetMons:OnChanged(function(Value)
@@ -3035,7 +3035,7 @@ end)
 	if World2 then
 	local FactoryRaids = Tabs.Main:AddToggle("FactoryRaids", {
 		Title = "Auto Factory Raid",
-		Description = "Đánh Nhà Máy",
+		Description = "Attack the Factory",
 		Default = false
 	})
 	FactoryRaids:OnChanged(function(Value)
@@ -3063,7 +3063,7 @@ end)
 	if World3 then
 	local CastleRaids = Tabs.Main:AddToggle("CastleRaids", {
 		Title = "Auto Pirate Raid",
-		Description = "Auto Đánh Hải Tặc",
+		Description = "Auto-farm pirates",
 		Default = false
 	})
 	CastleRaids:OnChanged(function(Value)
@@ -3184,7 +3184,7 @@ end)
 	if World2 then
 	local Q = Tabs.Main:AddToggle("Q", {
 		Title = "Auto Farm Ectoplasm",
-		Description = "Farm Vật Chất Kì Dị",
+		Description = "Farm Ectoplasm",
 		Default = false
 	})
 	Q:OnChanged(function(Value)
@@ -3215,7 +3215,7 @@ end)
 		end
 	end)
 	local Bartilo = Tabs.Main:AddToggle("Bartilo", {
-		Title = "Auto hoàn thành nhiệm vụ bartilo",
+		Title = "Auto complete the Bartilo quest",
 		Description = "",
 		Default = false
 	})
@@ -3296,7 +3296,7 @@ end)
 	end
 	if World3 then
 	local CitizenQ = Tabs.Main:AddToggle("CitizenQ", {
-		Title = "Auto Thực hiện nhiệm vụ công dân",
+		Title = "Auto perform the Citizen quest",
 		Description = "",
 		Default = false
 	})
