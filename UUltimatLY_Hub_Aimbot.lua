@@ -24,7 +24,7 @@ toggleButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 toggleButton.BackgroundTransparency = 0.2
 toggleButton.BorderSizePixel = 0
 toggleButton.ZIndex = 9999
-toggleButton.Image = "rbxassetid://71108055000421"
+toggleButton.Image = "rbxassetid://73642467719097"
 toggleButton.Parent = toggleGui
 
 local toggleCorner = Instance.new("UICorner")
