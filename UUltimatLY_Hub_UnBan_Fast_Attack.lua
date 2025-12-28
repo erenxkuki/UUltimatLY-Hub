@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDzaiScript/Setting/refs/heads/main/FastMax.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/erenxkuki/UUltimatLY-Hub/refs/heads/main/UUltimatLY_Fast_Max.lua"))()
 local function GetBladeHits()
     local targets = {}
     local function GetDistance(v)
@@ -340,4 +340,5 @@ function Funcs:Attack()
         }
     end
     Register_Hit:FireServer(unpack(args))
+
 end
