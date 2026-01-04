@@ -6,7 +6,7 @@ local Window = WindUI:CreateWindow({
 	Author = "Blox Fruits",
 	Folder = "UUltimatLY Hub",
 	Icon = "rbxassetid://73642467719097",
-	Background = "rbxassetid://12728324705",
+	Background = "rbxassetid://126536800211376",
 	Size = UDim2.fromOffset(450, 300),
 	MinSize = Vector2.new(520, 330),
 	Transparent = false,
@@ -10168,4 +10168,5 @@ spawn(function()
 		end);
 	end;
 end);
+
  
