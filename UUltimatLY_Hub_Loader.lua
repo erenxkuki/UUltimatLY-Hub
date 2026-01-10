@@ -1,15 +1,17 @@
 -- UUltimatLY Hub Loader - Made by realryzu (No GUI, Console Only)
--- Supports KAITUN (full auto progression) / FARM modes for Blox Fruits
+-- Supports KAITUN (full auto progression) / FARM / PVP (aimbot) modes for Blox Fruits
 
-local script_mode = "KAITUN"  -- Change this line to "FARM" if you want farm mode
+local script_mode = "KAITUN"  -- Change this line to "FARM" or "PVP" for other modes
 -- KAITUN = full account build-up (auto level 1-max, auto stats allocation, auto buy items/fruits, unlocks races/styles/boss drops, etc.)
 -- FARM = focused grinding (auto farm level/mobs/bosses/materials, but without full progression automation)
+-- PVP = aimbot & combat features for player vs player
 
 local scripts = {
     -- Blox Fruits main GameId
     [2753915549] = {
         KAITUN = "https://vxezestudio.online/api/scripts/script_f2cpodvqxpq/raw",
         FARM   = "https://vxezestudio.online/api/scripts/script_i4wonghqta8/raw",
+        PVP    = "https://vxezestudio.online/api/scripts/script_2a4msgr1r9c/raw",
     },
 }
 
